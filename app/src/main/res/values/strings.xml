@@ -5,6 +5,10 @@
     <string name="remember">Remember me</string>
     <string name="sign">SIGN IN</string>
     <string name="forgotPass">Forgot Password</string>
+    <string name="email">Email</string>
+    <string name="log">Log Into Facebook</string>
+    <string name="signup">Sign Up for Facebook</string>
+    <string name="logo">Messenger</string>
 
 
 </resources>
