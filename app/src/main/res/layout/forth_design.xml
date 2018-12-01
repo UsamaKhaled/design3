@@ -25,7 +25,7 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
-        
+
         />
     <Button
         android:id="@+id/login"
@@ -43,7 +43,7 @@
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/pass"
+        android:layout_above="@id/line"
         android:hint="@string/email"
         android:inputType="text"
         android:background="@drawable/rect3"
@@ -52,7 +52,19 @@
         android:textColorHint="@color/gray"
         android:padding="10dp"
 
+
         />
+        <view
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            android:layout_above="@id/pass"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+
 
     <EditText
         android:id="@+id/pass"
