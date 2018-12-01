@@ -25,6 +25,7 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
+        
         />
     <Button
         android:id="@+id/login"
