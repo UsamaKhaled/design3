@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">design3</string>
+    <string name="colidgeId">COLLIGE ID</string>
+    <string name="pass">PASSWORD</string>
+    <string name="remember">Remember me</string>
+    <string name="sign">SIGN IN</string>
+    <string name="forgotPass">Forgot Password</string>
+
+
+</resources>

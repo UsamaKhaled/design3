@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/remember"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/colidgeId"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:background="@color/white"
+        android:drawablePadding="10dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/pass"
+        android:drawableStart="@mipmap/ic_launcher"
+        android:background="@color/white"
+        android:drawablePadding="15dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:drawableEnd="@mipmap/ic_launcher_round"
+        android:inputType="textPassword"
+        />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:checked="true"
+        android:text="@string/remember"
+        android:textSize="20sp" />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:background="@drawable/rectangle"
+        android:text="@string/sign"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:drawableEnd="@mipmap/ic_launcher"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotPass"
+        android:textSize="20sp" />
+
+</LinearLayout>
